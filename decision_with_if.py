@@ -1,5 +1,5 @@
 import datetime as dt
-""" # Weather Pridiction app
+""" # Weather Pridiction app """
 weather = input("Enter your weather condation, sunny, cloudy, thunderston : ")
 
 weather_input_space = weather.count(" ")
@@ -15,9 +15,8 @@ if weather == "thunderston":
 if weather == "cloudy":
     print("today is outing day, but take umbrella with you")
 
-"""
 
-""" # Subtotal with Sale tax
+""" # Subtotal with Sale tax """
 total = 100
 sale_tax_rate = 0.065
 taxable = True
@@ -33,9 +32,9 @@ if taxable:
 
 if taxable == False:
     print("Please Pay SalesTax ")
-"""
 
-"""# Greeting Message with current time 
+
+"""  # Greeting Message with current time """
 
 now = dt.datetime.now()
 
@@ -49,9 +48,8 @@ else:
 
 print("I hope you are doing well")
 
-"""
 
-"""# Baverage  provide according to Age 
+"""  # Baverage  provide according to Age  """
 
 user_age = int(input("Enter your Age "))
 
@@ -63,4 +61,3 @@ else:
     baverage = "Prune Juice"
 
 print(f"Have a {baverage}")
-"""
